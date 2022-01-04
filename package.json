@@ -86,6 +86,17 @@
       "pre-commit": "lint-staged"
     }
   },
+  "lint-staged": {
+    "**/*.{js,jsx,ts,tsx}": [
+      "eslint",
+      "prettier --write",
+      "git add"
+    ],
+    "**/*.{md,mdx,json}": [
+      "prettier --write",
+      "git add"
+    ]
+  },
   "next-unused": {
     "alias": {
       "@lib/*": [
