@@ -1,14 +1,12 @@
 import type { NextPage } from 'next'
-import Head from 'next/head'
-import Image from 'next/image'
+import { Layout } from '@components/common'
 
-const Home: NextPage = () => {
-
+export default function Home<NextPage>() {
   return (
     <div>
-      <div> Hello ! Next.js </div>
+      <div> 홈 입니다 </div>
     </div>
   )
 }
 
-export default Home
+Home.Layout = Layout
