@@ -1,0 +1,16 @@
+.root {
+  height: 70px;
+}
+
+.menu {
+  @apply flex p-3 rounded-xl mt-2 pl-5 pr-5 bg-primary text-accent-7;
+}
+
+.menu:hover {
+  @apply shadow-md cursor-pointer text-accent-1;
+  transform: scale(1.05);
+}
+
+.icon {
+  @apply mr-2;
+}

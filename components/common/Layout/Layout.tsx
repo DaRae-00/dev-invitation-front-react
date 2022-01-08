@@ -5,7 +5,8 @@ import { useRouter } from 'next/router'
 import { useUI } from '@components/ui/context'
 import { Navbar, Footer } from '@components/common'
 import { useAcceptCookies } from 'lib/hooks/useAcceptCookies'
-import { Sidebar, Button, LoadingDots } from '@components/ui'
+import { Sidebar, LoadingDots } from '@components/ui'
+import { links } from '@config/links'
 
 import s from './Layout.module.css'
 
@@ -64,12 +65,6 @@ const SidebarUI: FC = () => {
 const Layout: FC = ({ children }) => {
   const { acceptedCookies, onAcceptCookies } = useAcceptCookies()
   const { locale = 'en-US' } = useRouter()
-  const links = [
-    {
-      label: 'label',
-      href: '/search/1',
-    },
-  ]
 
   return (
     <div className={cn(s.root)}>

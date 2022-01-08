@@ -1,5 +1,6 @@
 module.exports = {
   plugins: [
+    'tailwindcss/nesting',
     'tailwindcss',
     'postcss-nesting',
     'postcss-flexbugs-fixes',
@@ -12,6 +13,7 @@ module.exports = {
         stage: 3,
         features: {
           'custom-properties': false,
+          'nesting-rules': false,
         },
       },
     ],

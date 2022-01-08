@@ -1,0 +1,24 @@
+.root {
+  @apply h-full bg-primary mx-auto transition-colors duration-150 p-8;
+  width: 500px;
+  min-width: 500px;
+}
+
+.header {
+  @apply bg-blue text-white pt-3 pb-2 text-center;
+}
+
+.content_wrap {
+  @apply ml-3 mr-3;
+  border-left: 1px solid var(--blue);
+  border-right: 1px solid var(--blue);
+  border-bottom: 1px solid var(--blue);
+}
+
+.notice_wrap {
+  @apply m-3 border border-solid border-blue p-2;
+}
+
+.notice_list {
+  @apply flex;
+}

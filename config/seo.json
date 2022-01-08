@@ -1,12 +1,11 @@
 {
-  "title": "title",
-  "description": "-",
+  "title": "Invitation Card",
+  "description": "결혼식에 오지 못하는 친구나 친지분들에게 마음을 전하세요!",
   "openGraph": {
-    "title": "graph-title",
-    "description": "--",
+    "title": "Invitation Card",
+    "description": "결혼식에 오지 못하는 친구나 친지분들에게 마음을 전하세요!",
     "type": "website",
-    "locale": "en_IE",
     "url": "localhost",
-    "site_name": "name!"
+    "site_name": "Invitation Card"
   }
 }

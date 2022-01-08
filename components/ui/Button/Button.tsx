@@ -13,7 +13,7 @@ import s from './Button.module.css'
 export interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   href?: string
   className?: string
-  variant?: 'flat' | 'slim' | 'ghost' | 'naked'
+  variant?: 'flat' | 'slim' | 'ghost' | 'naked' | 'circle'
   active?: boolean
   type?: 'submit' | 'reset' | 'button'
   Component?: string | JSXElementConstructor<any>
@@ -44,6 +44,7 @@ const Button: FC<ButtonProps> = forwardRef((props, buttonRef) => {
       [s.ghost]: variant === 'ghost',
       [s.slim]: variant === 'slim',
       [s.naked]: variant === 'naked',
+      [s.circle]: variant === 'circle',
       [s.loading]: loading,
       [s.disabled]: disabled,
     },
@@ -71,8 +72,6 @@ const Button: FC<ButtonProps> = forwardRef((props, buttonRef) => {
       )}
     </Component>
   )
-
-  return <div></div>
 })
 
 export default Button

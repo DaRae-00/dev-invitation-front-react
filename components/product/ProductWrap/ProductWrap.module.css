@@ -1,0 +1,20 @@
+.root {
+  width: 370px;
+  height: 100%;
+}
+
+.header {
+  @apply bg-primary-2 rounded-t-3xl text-center pt-5;
+  width: 370px;
+  height: 70px;
+}
+
+.content_wrap {
+  @apply border-8 border-solid border-primary-2;
+  height: 350px;
+}
+
+.footer {
+  @apply border border-solid border-primary-2 rounded-b-3xl;
+  min-height: 50px;
+}

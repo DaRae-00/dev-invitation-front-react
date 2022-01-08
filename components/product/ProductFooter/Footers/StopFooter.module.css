@@ -1,0 +1,26 @@
+.root {
+  @apply flex flex-col;
+  height: 350px;
+}
+
+.text_wrap {
+  @apply text-center;
+  margin-top: 65px;
+}
+
+.button_wrap {
+  @apply mt-auto mx-auto mb-2;
+}
+
+.button {
+  @apply bg-primary text-accent-7;
+}
+
+.button:hover {
+  @apply bg-primary text-accent-7 cursor-pointer border-primary-2;
+  transform: scale(1.03);
+}
+
+.icon {
+  @apply mr-3;
+}

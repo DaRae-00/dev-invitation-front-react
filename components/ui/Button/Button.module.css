@@ -4,7 +4,6 @@
     shadow-sm text-center justify-center uppercase
     border border-transparent items-center text-sm font-semibold
     tracking-wide;
-  max-height: 64px;
 }
 
 .root:hover {
@@ -42,6 +41,15 @@
 .naked:hover,
 .naked:focus {
   @apply bg-transparent border-none;
+}
+
+.circle {
+  @apply w-40 h-40 border border-primary-2 border-solid rounded-full;
+}
+
+.circle:hover,
+.circle:focus {
+  @apply shadow-outline-normal outline-none shadow-primary-2 bg-primary;
 }
 
 .disabled,

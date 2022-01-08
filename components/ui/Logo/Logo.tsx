@@ -1,6 +1,8 @@
+import s from './Logo.module.css'
+
 const Logo = ({ className = '', ...props }) => (
-  <div>
-    <div> 로 고 </div>
+  <div className={s.root}>
+    <div className="ml-4"> Invitation Card </div>
   </div>
 )
 
