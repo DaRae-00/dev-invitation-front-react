@@ -1,0 +1,37 @@
+.root {
+  @apply p-5;
+  width: 350px;
+}
+
+.header {
+  @apply bg-primary-2 rounded-t-lg;
+}
+
+.name {
+  @apply m-2 p-2 bg-primary-2 border-b border-blue;
+  width: 290px;
+}
+
+.name:active,
+.name:focus {
+  @apply border-b outline outline-blue;
+}
+
+.content {
+  @apply border border-solid border-primary-2 rounded-b-lg;
+  min-height: 30px;
+}
+
+.content_text {
+  @apply m-2 p-2 bg-primary border border-blue;
+  width: 290px;
+}
+
+.content_text:active,
+.content_text:focus {
+  @apply border-b outline outline-blue;
+}
+
+.save {
+  @apply mt-3 rounded-lg bg-primary-2;
+}

@@ -104,6 +104,30 @@ a {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+.text-h1 {
+  @apply pt-1 pb-2 font-semibold tracking-wide mb-2 text-5xl;
+}
+
+.text-h2 {
+  @apply pt-1 pb-2 font-bold tracking-wide mb-2 text-4xl;
+}
+
+.text-h3 {
+  @apply pt-1 pb-2 font-bold tracking-wide mb-2 text-3xl;
+}
+
+.text-h4 {
+  @apply pt-1 pb-2 font-bold tracking-wide mb-2 text-2xl;
+}
+
+.text-h5 {
+  @apply text-xl;
+}
+
+.text-h6 {
+  @apply text-lg;
+}
+
 .animated {
   -webkit-animation-duration: 1s;
   animation-duration: 1s;

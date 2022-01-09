@@ -1,0 +1,27 @@
+.root {
+  @apply p-5;
+  width: 350px;
+}
+
+.header {
+  @apply bg-primary-2 rounded-t-lg flex justify-between;
+}
+
+.name {
+  @apply p-3;
+}
+
+.icon {
+  @apply bg-primary-2 rounded-lg mt-3;
+  width: 25px;
+  height: 25px;
+}
+
+.icon:hover {
+  @apply cursor-pointer;
+}
+
+.content {
+  @apply border border-solid border-primary-2 rounded-b-lg;
+  min-height: 30px;
+}

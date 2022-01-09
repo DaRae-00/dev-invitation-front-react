@@ -26,7 +26,7 @@ const Footer: FC<Props> = ({ className }) => {
   return (
     <footer className={rootClassName}>
       <Container>
-        <div> footer </div>
+        <div style={{ height: '50px', padding: '10px' }}> made by darae </div>
       </Container>
     </footer>
   )
