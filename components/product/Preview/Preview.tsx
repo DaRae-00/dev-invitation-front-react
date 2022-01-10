@@ -64,7 +64,7 @@ const Preview: FC = () => {
   useEffect(() => {
     setPreviewFooterState(play ? 'stop' : 'play')
     play ? playImageAnimation(images) : stopImageAnimation()
-  }, [play])
+  }, [play, images])
 
   return (
     <div className={s.root}>
